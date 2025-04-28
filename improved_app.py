@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 from dash import Dash, html, dcc, callback, Output, Input, State
-import streamlit as st
-
-st.title("IKEA Data Processing App")
 
 # Initialize Dash app
 app = Dash(__name__)
